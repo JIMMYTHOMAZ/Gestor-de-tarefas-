@@ -1,0 +1,5 @@
+{
+  "name": "Cérebro Digital PKM",
+  "description": "Sistema avançado de Gerenciamento de Conhecimento Pessoal que processa texto, áudio, imagem e vídeo.",
+  "requestFramePermissions": ["camera", "microphone"]
+}

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer components {
+  .markdown-body h1 {
+    @apply text-2xl font-bold mt-6 mb-4 text-gray-900;
+  }
+  .markdown-body h2 {
+    @apply text-xl font-bold mt-6 mb-3 text-gray-800 border-b border-gray-100 pb-2;
+  }
+  .markdown-body h3 {
+    @apply text-lg font-bold mt-4 mb-2 text-gray-800;
+  }
+  .markdown-body p {
+    @apply mb-4 leading-relaxed text-gray-700;
+  }
+  .markdown-body ul {
+    @apply list-disc pl-5 mb-4 space-y-1 text-gray-700;
+  }
+  .markdown-body ol {
+    @apply list-decimal pl-5 mb-4 space-y-1 text-gray-700;
+  }
+  .markdown-body li > input[type="checkbox"] {
+    @apply mr-2 mt-1 rounded text-blue-600 focus:ring-blue-500;
+  }
+  .markdown-body blockquote {
+    @apply border-l-4 border-blue-300 pl-4 italic text-gray-600 mb-4 bg-blue-50 py-2 rounded-r-lg;
+  }
+  .markdown-body strong {
+    @apply font-semibold text-gray-900;
+  }
+  .markdown-body hr {
+    @apply my-6 border-gray-200;
+  }
+  .markdown-body code {
+    @apply bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+  .markdown-body pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-xl overflow-x-auto mb-4;
+  }
+  .markdown-body pre code {
+    @apply bg-transparent text-gray-100 p-0;
+  }
+}
