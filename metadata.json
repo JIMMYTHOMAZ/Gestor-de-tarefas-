@@ -1,5 +1,8 @@
 {
-  "name": "Cérebro Digital PKM",
+  "name": "Cérebro Digital JIMMY",
   "description": "Sistema avançado de Gerenciamento de Conhecimento Pessoal que processa texto, áudio, imagem e vídeo.",
-  "requestFramePermissions": ["camera", "microphone"]
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
 }
